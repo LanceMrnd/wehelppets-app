@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.WeHelpPetsMobileApplication" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/pink</item>
+        <item name="titleTextColor">@color/pink</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="actionOverflowButtonStyle">@style/IconOverFlow</item>
+        <item name="android:searchButtonText">@style/IconSearch</item>
+        <item name="android:actionBarWidgetTheme">@style/Theme.MyTheme.Widget</item>
+    </style>
+
+
+    <style name="Theme.WeHelpPetsMobileApplicationNo" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/pink</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/pink</item>
+    </style>
+
+
+    <style name="Theme.WeHelpPetsMobileApplicationNo.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.WeHelpPetsMobileApplicationNo.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="IconOverFlow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/pink</item>
+
+    </style>
+
+    <style name="IconSearch" parent="Widget.AppCompat.SearchView.ActionBar">
+        <item name="android:tint">@color/pink</item>
+    </style>
+
+    <style name="Theme.MyTheme.Widget" parent="Widget.AppCompat.SearchView.ActionBar">
+        <item name="android:textColorHint">@color/pink</item>
+        <!-- your other custom widget styles -->
+    </style>
+
+
+
+    <style name="TabLayoutStyle" parent="Base.Widget.Design.TabLayout">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+
+
+
+
+
+
+</resources>

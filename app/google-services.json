@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "336413256379",
+    "firebase_url": "https://wehelppetsmobileapplication-default-rtdb.firebaseio.com",
+    "project_id": "wehelppetsmobileapplication",
+    "storage_bucket": "wehelppetsmobileapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336413256379:android:4314a39f880d747bde179e",
+        "android_client_info": {
+          "package_name": "com.example.wehelppetsmobileapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336413256379-4phf5dv4c9bcu03b9nqlv5rsgl5978db.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wehelppetsmobileapplication",
+            "certificate_hash": "5e240685a1d8847ce0a7f7eddc4963beab69043b"
+          }
+        },
+        {
+          "client_id": "336413256379-h116nb8pr9n27o1fdj7os44n8l59d665.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wehelppetsmobileapplication",
+            "certificate_hash": "d0d49419a1e32a8e53479bad70ccab6498b84f04"
+          }
+        },
+        {
+          "client_id": "336413256379-ljquhrjr3eadcgv1301gku9omsjf1tv5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wehelppetsmobileapplication",
+            "certificate_hash": "2043c999e09a4d773452f89275f24b4c44ffe2c2"
+          }
+        },
+        {
+          "client_id": "336413256379-nbb1s2akk5ghmbaqkm0kejqd3s8ohl82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoLXjiXNOOpJWH7J2EprMQr1Z8ci7FifQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336413256379-nbb1s2akk5ghmbaqkm0kejqd3s8ohl82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

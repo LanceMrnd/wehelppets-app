@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="1dp"
+    app:contentPadding="2dp"
+    app:cardBackgroundColor="@color/white">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+            android:id="@+id/avatarIv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/profile_paws" />
+
+        <TextView
+            android:id="@+id/nameTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/avatarIv"
+            android:text="Atif"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:fontFamily="@font/helvetica_rounded_bold" />
+
+        <TextView
+            android:id="@+id/commentTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameTv"
+            android:layout_toEndOf="@+id/avatarIv"
+            android:layout_toRightOf="@+id/avatarIv"
+            android:text="This is actual comment"
+            android:textColor="@color/black"
+            android:textSize="13dp"/>
+
+        <TextView
+            android:id="@+id/timeTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/commentTv"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="-1dp"
+            android:layout_toEndOf="@+id/avatarIv"
+            android:text="11/06/2021"
+            android:textSize="10dp"
+            android:textColor="@color/lightgray"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
